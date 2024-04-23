@@ -1,0 +1,205 @@
+@font-face {
+    font-family: Blue_Curve_R;
+    src: url(font/Bluecurve-Regular.ttf);
+}
+
+@font-face {
+    font-family: Blue_Curve_L;
+    src: url(font/Bluecurve-Light.ttf);
+}
+
+html{
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+}
+
+p {
+    font-family: Blue_Curve_R;
+}
+
+a{
+    font-family: Blue_Curve_R;
+}
+
+span{
+  font-family: Blue_Curve_R;
+}
+
+.container-fluid{
+    background-color: rgba(249, 179, 0, 1);
+    padding: 1.3em;
+}
+
+.container-fluid a{
+    font-family: Blue_Curve_R;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+}
+
+.nav-item a{
+  font-family: Blue_Curve_R;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+}
+
+.nav-item a:hover {
+  color: white;
+}
+
+@media screen and (max-width: 1150px) {
+  .nav-item a{
+    font-family: Blue_Curve_R;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-item a{
+    font-family: Blue_Curve_R;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-item a{
+    font-family: Blue_Curve_R;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nav-item a{
+    font-family: Blue_Curve_R;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+  }
+
+  .logo span {
+    font-size: 0.7em;
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 1em;
+    padding-bottom: 0;
+  }
+}
+
+.logo {
+    font-size: 2em;
+}
+
+.nav-item-center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container-fluid .nav-link a{
+  align-content: space-between;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 700px;
+  font-family: Blue_Curve_R;
+}
+
+@media screen and (max-width: 724px) {
+    .login-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 500px;
+      font-family: Blue_Curve_R;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .login-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 400px;
+      font-family: Blue_Curve_R;
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    .login-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 340px;
+      font-family: Blue_Curve_R;
+    }
+  }
+
+.form-title {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+
+.form-submit {
+  width: 100%;
+  border-radius: 50px;
+  padding: 10px 20px;
+  background-color: rgba(31, 68, 45, 1);
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 23px;
+  margin-top: 10px;
+}
+
+.form-text {
+  font-size: 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.form-text a{
+  text-decoration: none;
+  color: black;
+}

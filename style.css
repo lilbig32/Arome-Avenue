@@ -1,0 +1,479 @@
+@font-face {
+    font-family: Blue_Curve_R;
+    src: url(font/Bluecurve-Regular.ttf);
+}
+
+@font-face {
+    font-family: Blue_Curve_L;
+    src: url(font/Bluecurve-Light.ttf);
+}
+
+html{
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+p {
+    font-family: Blue_Curve_R;
+}
+
+a{
+    font-family: Blue_Curve_R;
+}
+
+span{
+  font-family: Blue_Curve_R;
+}
+
+.container-fluid{
+    background-color: rgba(249, 179, 0, 1);
+    padding: 1.3em;
+}
+
+.container-fluid a{
+    font-family: Blue_Curve_R;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+}
+
+.nav-item a{
+  font-family: Blue_Curve_R;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+}
+
+.nav-item a:hover {
+  color: white;
+}
+
+@media screen and (max-width: 1150px) {
+  .nav-item a{
+    font-family: Blue_Curve_R;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-item a{
+    font-family: Blue_Curve_R;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-item a{
+    font-family: Blue_Curve_R;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nav-item a{
+    font-family: Blue_Curve_R;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+  }
+
+  .logo span {
+    font-size: 0.7em;
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 1em;
+    padding-bottom: 0;
+  }
+}
+
+.logo {
+    font-size: 2em;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    padding-top: 1em;
+    padding-bottom: 0;
+  }
+
+  .header-text {
+    width: 75%;
+    font-size: 2.7em;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+  }
+
+  @media screen and (max-width: 1240px) {
+    .header-text {
+      width: 90%;
+      font-size: 2.3em;
+      margin-bottom: 1.2em;
+    }
+  }
+
+  @media screen and (max-width: 1150px) {
+    .header-text {
+      width: 90%;
+      font-size: 2.3em;
+      margin-bottom: 1.2em;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .header-text {
+      width: 100%;
+      font-size: 1.8em;
+      margin-bottom: 1.2em;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .header-text {
+      width: 100%;
+      font-size: 2em;
+      margin-bottom: 1em;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .header-text {
+      font-size: 1.3em;
+      margin-bottom: 0.8em;
+    }
+  }
+
+  .header-button  {
+    padding: 20px 40px;
+    background-color: rgba(31, 68, 45, 1);
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 2em;
+  }
+
+  @media screen and (max-width: 768px) {
+    .header-button  {
+      padding: 20px 40px;
+      background-color: rgba(31, 68, 45, 1);
+      color: white;
+      text-decoration: none;
+      border-radius: 50px;
+      font-size: 2em;
+      align-items: center;
+    }
+  }
+
+  .header-image img {
+    width: 38em;
+    height: 34em;
+  }
+
+  @media screen and (max-width: 1220px) {
+    .header-image img {
+      width: 30em;
+      height: 27em;
+    }
+  }
+
+  @media screen and (max-width: 1150px) {
+    .header-image img {
+      width: 25em;
+      height: 23em;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .header-image img {
+      width: 25em;
+      height: 23em;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .header-image img {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .header-image img {
+      display: none;
+    }
+  }
+
+.rizon {
+  padding-top: 3em;
+}
+
+.top-block span{
+  font-size: 2em;
+}
+
+.top-block p {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.aroma {
+  color: rgba(201, 147, 59, 1);
+}
+
+.avenue {
+  color: rgba(31, 68, 45, 1);
+}
+
+.ott-grid {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr; /* Три столбца равной ширины */
+  grid-gap: 10px; /* Отступ между столбцами */
+  margin: 2em 2em 2em 2em;
+}
+
+.ott-grid p{
+ font-size: 1.7em;
+}
+
+.ott-grid img {
+  float: left;
+  margin-right: 1em;
+}
+
+td{
+  vertical-align: top;
+}
+
+.ott-grid table {
+  border-collapse: collapse;
+}
+
+@media screen and (max-width: 1150px) {
+  .ott-grid p{
+    font-size: 1.5em;
+   }
+
+   .ott-grid img {
+    width: 80px;
+    float: left;
+    margin-right: 1em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .ott-grid p{
+    font-size: 1.2em;
+   }
+
+   .ott-grid img {
+    width: 60px;
+    float: left;
+    margin-right: 1em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ott-grid p{
+    font-size: 1em;
+   }
+
+   .ott-grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr; /* Три столбца равной ширины */
+    grid-gap: 10px; /* Отступ между столбцами */
+    margin: 2em 2em 2em 1em;
+  }
+
+   .ott-grid img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .ott-grid p{
+    font-size: 1em;
+   }
+
+   .ott-grid img {
+    display: none;
+  }
+}
+
+.block img {
+  width: 45vw;
+  margin-left: 2em;
+}
+
+.grid-item {
+  width: 0;
+}
+
+.block{
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Два столбца равной ширины */
+  grid-template-rows: 1fr 1fr; /* Две строки равной высоты */
+  grid-gap: 30px; /* Отступ между столбцами и строками */
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+@media screen and (max-width: 1024px) {
+  .block img {
+    width: 45vw;
+    margin-left: 1em;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr); /* Два столбца равной ширины */
+    grid-template-rows: repeat(3, 1fr); /* Три строки равной высоты */
+    margin-right: 1em;
+  }
+}
+
+@media(max-width: 768px) { /* Медиа-запрос для уменьшения ширины окна до 600 пикселей */
+  .block {
+    grid-template-columns: 1fr; /* Один столбец при уменьшении ширины окна */
+  }
+
+  .block img {
+    width: 90vw;
+    margin-left: 1em;
+  }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Три столбца равной ширины */
+  grid-template-rows: repeat(2, 1fr); /* Две строки равной высоты */
+  grid-gap: 10px; /* Отступ между ячейками */
+  margin-left: 3em;
+  margin-bottom: 2em;
+}
+
+.item img{
+  width: 27vw;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr); /* Два столбца равной ширины */
+    grid-template-rows: repeat(3, 1fr); /* Три строки равной высоты */
+    margin-left: 1em;
+  }
+
+  .item img{
+    width: 45vw;
+    
+  }
+}
+
+.otzivi {
+  margin-left: 4em;
+  margin-bottom: 5em;
+  margin-top: 3em;
+}
+
+@media (max-width: 768px) {
+  .otzivi {
+    margin-left: 1em;
+  }
+}
+
+.reviews {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-reviews {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Три столбца равной ширины */
+  grid-template-rows: auto auto; /* Две строки с автоопределением высоты */
+  grid-gap: 10px; /* Отступ между ячейками */
+}
+
+.teg p {
+  font-size: 2.5em;
+}
+
+@media screen and (max-width: 1024px) {
+  .grid-r-3{
+    display: none;
+  }
+
+  .grid-reviews {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Три столбца равной ширины */
+    grid-template-rows: auto auto; /* Две строки с автоопределением высоты */
+    grid-gap: 10px; /* Отступ между ячейками */
+  }
+}
+.grid-r {
+  padding: 10px;
+}
+
+.klient{
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 25px;
+}
+
+.grid-r-3 {
+  grid-row: span 2; /* Объединение из 2 строк */
+}
+
+.coffee{
+  width: 250px;
+  height: 220px;
+  margin-left: 5em;
+  margin-top: 2em;
+}
+
+@media screen and (max-width: 1150px) {
+  .coffee{
+    width: 250px;
+    height: 220px;
+    margin-left: 1em;
+    margin-top: 4em;
+  }
+}
+
+/*ПОДВАЛ*/
+.pt-2{
+  font-size: 1.4em;
+  color: white;
+}
+
+footer {
+  background-color: rgba(249, 179, 0, 1);
+}
+.btn{
+  background-color: rgba(31, 68, 45, 1);
+  border: none;
+  padding: 10px 40px;
+  
+}
+
+.btn:hover {
+  background-color: rgba(31, 68, 45, 1);
+}

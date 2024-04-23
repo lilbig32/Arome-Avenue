@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Arome Avenue</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="news.css">
+        <link rel="shortcut icon" href="img/icon.png" type="image/png">
+    </head>
+
+    <body>
+        <header>
+          <nav class="navbar bg-body-tertiary" style="padding-top: 0;">
+            <div class="container-fluid">
+              <a class="logo" href="index.html">
+                <img src="img/logo.png" alt="Logo" width="90" height="90" >
+                <span>Aroma</span> <span style="color: rgba(31, 68, 45, 1);">Avenue</span>
+              </a>
+              <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">Главная</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="news.html">Новости</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">О нас</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sales.html">Акции</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="checkauth.php">Личный кабинет→</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+
+        <!--Карта с новостями-->
+        <main>
+            <div class="title">
+                <p>Новости кофейни Aroma Avenue</p>
+            </div>
+
+            <div class="grid-container">
+                <div class="grid-item">
+                    <div class="card">
+                        <img src="img/price-card.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Подарочные карты</h5>
+                        <p class="card-text">Подарите своему любимому человеку или другу подарочную карту на сумму от 500 до 5000 рублей.</p>
+                        <a href="#" class="btn btn-primary" id="openModal">Перейти</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="card">
+                        <img src="img/sale.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">SALE! Снижены цены на кофе</h5>
+                        <p class="card-text">Выбирайте свои любимые лоты со скидкой.</p>
+                        <a href="#" class="btn btn-primary">Перейти</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="card">
+                        <img src="img/menu.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Авторское меню осень-зима'24</h5>
+                        <p class="card-text">Новый сезон авторских напитков мы посвятили самым крутым фильмам этого года.</p>
+                        <a href="#" class="btn btn-primary">Перейти</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="card">
+                        <img src="img/time.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Изменения в режиме работы кофейни на Пушкина 107а</h5>
+                        <p class="card-text">Теперь по будням мы работаем с 8:00.</p>
+                        <a href="#" class="btn btn-primary">Перейти</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="card">
+                        <img src="img/filter.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Безлимитный фильтр-кофе</h5>
+                        <p class="card-text">По выходным в кофейне на Пушкина 107а.</p>
+                        <a href="#" class="btn btn-primary">Перейти</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                        <div class="card">
+                        <img src="img/bonus.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Бонусная программа</h5>
+                        <p class="card-text">Копите баллы и меняйте их на любимые напитки, кофе в зернах и аксессуары.</p>
+                        <a href="#" class="btn btn-primary">Перейти</a>
+                        </div>
+                    </div>
+                </div>
+             </div>
+
+             <div id="modal">
+              <span class="close">&times;</span>
+              <img src="img/price-card.png" alt="Изображение">
+              <p style="font-size: 30px;">Подарочные карты</p>
+              <p class="modal-text">Уникальная возможность подарить своему любимому человеку или другу незабываемый подарок появилась!<br>Теперь вы можете приобрести подарочную карту на сумму от 500 до 5000 рублей, чтобы они смогли выбрать именно то, что они желают.</p><br>
+              <p class="modal-text">Приобрести подарочную карту также очень просто.<br> Вы можете сделать это в кратчайшее время, просто обратившись к нашим сотрудникам в физическом месте предоставления услуг.<br> Мы предлагаем различные варианты оформления карты, чтобы сделать ее еще более индивидуальной и запоминающейся.</p>
+              <p class="modal-text2">Не упускайте возможность порадовать своих близких или друзей и подарить им полное свободы выбора с помощью нашей подарочной карты.</p>
+            </div>
+        </main>
+        <footer>
+            <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">Подпишитесь на нашу рассылку новостей</p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+              <input type="email" id="form5Example26" class="form-control" />
+              <label class="form-label" for="form5Example26">Эл. адрес</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button data-mdb-ripple-init type="submit" class="btn btn-primary mb-4">
+              Подписка
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+    Ⓒ 2023 Все права защищены политикой конфиденциальности
+  </div>
+  <!-- Copyright -->
+        </footer>
+        <script>
+          document.getElementById("openModal").addEventListener("click", function() {
+  document.getElementById("modal").style.display = "block";
+});
+
+document.getElementsByClassName("close")[0].addEventListener("click", function() {
+  document.getElementById("modal").style.display = "none";
+});
+
+window.addEventListener("click", function(event) {
+  if (event.target == document.getElementById("modal")) {
+    document.getElementById("modal").style.display = "none";
+  }
+});
+
+        </script>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

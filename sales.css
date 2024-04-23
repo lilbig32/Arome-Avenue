@@ -1,0 +1,320 @@
+@font-face {
+    font-family: Blue_Curve_R;
+    src: url(font/Bluecurve-Regular.ttf);
+}
+
+@font-face {
+    font-family: Blue_Curve_L;
+    src: url(font/Bluecurve-Light.ttf);
+}
+
+html{
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+}
+
+p {
+    font-family: Blue_Curve_R;
+}
+
+a{
+    font-family: Blue_Curve_R;
+}
+
+span{
+  font-family: Blue_Curve_R;
+}
+
+.container-fluid{
+    background-color: rgba(249, 179, 0, 1);
+    padding: 1.3em;
+}
+
+.container-fluid a{
+    font-family: Blue_Curve_R;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+}
+
+.nav-item a{
+  font-family: Blue_Curve_R;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+}
+
+.nav-item a:hover {
+  color: white;
+}
+
+@media screen and (max-width: 1150px) {
+  .nav-item a{
+    font-family: Blue_Curve_R;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-item a{
+    font-family: Blue_Curve_R;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-item a{
+    font-family: Blue_Curve_R;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nav-item a{
+    font-family: Blue_Curve_R;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+  }
+
+  .logo span {
+    font-size: 0.7em;
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+    padding-bottom: 0;
+  }
+}
+
+.logo {
+    font-size: 2em;
+}
+
+main {
+    padding-top: 2rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-bottom: 2rem;
+}
+
+.loyalty {
+    display: flex;
+}
+
+.title p {
+    font-size: 40px;
+}
+
+.cards img {
+    width: 600px;
+}
+
+.cards {
+    vertical-align: middle;
+    height: auto;
+}
+
+.loyalty-text {
+    padding-left: 4rem;
+    font-size: 30px;   
+}
+
+.loyalty-text img {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clearfixx {
+    margin-top: 4rem;
+}
+
+.clearfixx img {
+    width: 300px;
+    padding-left: 2rem;
+}
+
+.clearfixx p {
+    font-size: 33px;
+}
+
+.clearfixx2 {
+    margin-top: 4rem;
+}
+
+.clearfixx2 img {
+    width: 300px;
+    padding-left: 2rem;
+}
+
+.clearfixx2 p {
+    font-size: 33px;
+}
+
+.hours p{
+    font-size: 50px;
+}
+
+/*ПОДВАЛ*/
+.pt-2{
+    width: 100%;
+    font-size: 1.4em;
+    color: white;
+  }
+  
+  footer {
+    background-color: rgba(249, 179, 0, 1);
+  }
+
+  .btn{
+    background-color: rgba(31, 68, 45, 1);
+    border: none;
+    padding: 10px 40px;
+  }
+  
+  .btn:hover {
+    background-color: rgba(31, 68, 45, 1);
+  }
+
+  @media screen and (min-width: 1600px) {
+    .loyalty-text img {
+        width: 600px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+
+
+  @media screen and (max-width: 1250px) {
+    .loyalty-text img {
+        display: none;
+    }
+
+    .cards img {
+        width: 500px;
+    }
+  }
+
+  @media screen and (max-width: 1150px) {
+    .cards img {
+        width: 450px;
+    }
+
+    .loyalty-text {
+        padding-left: 4rem;
+        font-size: 28px;   
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .cards img {
+        width: 400px;
+    }
+
+    .loyalty-text {
+        padding-left: 4rem;
+        font-size: 23px;   
+    }
+
+    main {
+        padding-top: 2rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        padding-bottom: 2rem;
+    }
+  }
+  
+  @media screen and (max-width: 940px) {
+    .cards img {
+        width: 400px;
+    }
+
+    .cards{
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .loyalty {
+        display: block;
+        font-size: 23px;   
+    }
+
+    .loyalty-text {
+        display: block;
+        padding-left: 0rem;
+        font-size: 30px;   
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .cards img {
+        width: 400px;
+    }
+
+    .loyalty {
+        display: block;
+        font-size: 23px;   
+    }
+
+    .loyalty-text {
+        display: block;
+        padding-left: 0rem;
+        font-size: 30px;   
+    }
+
+    .clearfixx img {
+        width: 200px;
+        display: block;
+        margin: 0 auto;
+        padding-left: 0rem;
+    }
+
+    .clearfixx2 img {
+        width: 200px;
+        display: block;
+        margin: 0 auto;
+        padding-left: 0rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .cards img {
+        width: 300px;
+    }
+
+    .cards {
+      vertical-align: middle;
+      height: auto;
+      width: 300px;
+  }
+
+    .loyalty {
+        display: block;
+        font-size: 25px;   
+    }
+
+    .loyalty-text {
+        display: block;
+        padding-left: 0rem;
+        font-size: 30px;   
+    }
+
+    .text2 {
+        display: none;
+    }
+  }

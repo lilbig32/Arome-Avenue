@@ -1,0 +1,280 @@
+@font-face {
+    font-family: Blue_Curve_R;
+    src: url(font/Bluecurve-Regular.ttf);
+}
+
+@font-face {
+    font-family: Blue_Curve_L;
+    src: url(font/Bluecurve-Light.ttf);
+}
+
+html{
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+}
+
+p {
+    font-family: Blue_Curve_R;
+}
+
+a{
+    font-family: Blue_Curve_R;
+}
+
+span{
+  font-family: Blue_Curve_R;
+}
+
+.container-fluid{
+    background-color: rgba(249, 179, 0, 1);
+    padding: 1.3em;
+}
+
+.container-fluid a{
+    font-family: Blue_Curve_R;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+}
+
+.nav-item a{
+  font-family: Blue_Curve_R;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+}
+
+.nav-item a:hover {
+  color: white;
+}
+
+@media screen and (max-width: 1150px) {
+  .nav-item a{
+    font-family: Blue_Curve_R;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-item a{
+    font-family: Blue_Curve_R;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-item a{
+    font-family: Blue_Curve_R;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nav-item a{
+    font-family: Blue_Curve_R;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+  }
+
+  .logo span {
+    font-size: 0.7em;
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 1em;
+    padding-bottom: 0;
+  }
+}
+
+.logo {
+    font-size: 2em;
+}
+
+.title p{
+    font-size: 2em;
+    margin-left: 3em;
+    margin-top: 1em;
+}
+
+@media screen and (max-width: 768px) {
+    .title p{
+        font-size: 2em;
+        margin-left: 1.5em;
+    }
+  } 
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Три столбца равной ширины */
+    grid-template-rows: auto auto; /* Две строки */
+    grid-gap: 10px; /* Отступы между ячейками */
+    margin-bottom: 3em;
+  }
+
+  @media screen and (max-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr); /* Два столбца равной ширины */
+    grid-template-rows: repeat(3, 1fr); /* Три строки равной высоты */
+  }
+}
+
+@media screen and (max-width: 724px) {
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr); /* Два столбца равной ширины */
+        grid-template-rows: repeat(3, 1fr); /* Три строки равной высоты */
+        
+    }
+
+    .card {
+        border: 1px solid black;
+        border-radius: 30px 30px 20px 20px;
+        width: 25rem;
+    }
+}
+  .grid-item {
+    padding: 10px;
+    display: flex;
+    justify-content: center; /* Выравнивание по горизонтали */
+    align-items: center; /* Выравнивание по вертикали */
+  }
+
+.card {
+    border: 1px solid black;
+    border-radius: 30px 30px 20px 20px;
+    width: 18rem;
+}
+
+.card-title {
+    font-family: Blue_Curve_R;
+    font-size: 1.4em;
+}
+
+.card-text{
+    font-family: Blue_Curve_L;
+}
+
+.btn {
+    background-color: rgba(31, 68, 45, 1);
+    border: none;
+    padding: 4px 30px;
+    font-family: Blue_Curve_R;
+}
+
+.btn:hover {
+    background-color: rgba(31, 68, 45, 1);
+}
+
+.a:checked {
+  background-color: rgba(31, 68, 45, 1);
+}
+
+#modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.779);
+}
+
+#modal img {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+}
+
+#modal p {
+  margin-top: 1rem;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+.modal-text {
+  font-family: Blue_Curve_L;
+}
+
+.modal-text2 {
+  font-family: Blue_Curve_R;
+}
+
+#modal .close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+#modal .close:hover,
+#modal .close:focus {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/*ПОДВАЛ*/
+.pt-2{
+    font-size: 1.4em;
+    color: white;
+  }
+  
+  footer {
+    background-color: rgba(249, 179, 0, 1);
+  }
+  .btn{
+    background-color: rgba(31, 68, 45, 1);
+    border: none;
+    padding: 10px 40px;
+    
+  }
+  
+  .btn:hover {
+    background-color: rgba(31, 68, 45, 1);
+  }
+
+  @media screen and (max-width: 1024px) {
+    #modal img {
+      display: block;
+      margin: 0 auto;
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    #modal img {
+      display: block;
+      margin: 0 auto;
+      width: 70%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    #modal img {
+      display: block;
+      margin: 0 auto;
+      width: 70%;
+    }
+  }
